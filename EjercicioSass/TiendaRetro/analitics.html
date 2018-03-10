@@ -32,7 +32,53 @@
         </div>
     </nav>
     <section class="container contenido">
-        <h1>Algunos datos de nuestro sitio</h1>
+        <h1>Algunos datos de nuestra empresa</h1>
+
+
+        <div class="row info">
+            <div class="col s12 m3 ">
+                <a class="waves-effect btn modal-trigger" href="#info1">Ventas</a>
+            </div>
+            <div class="col s12 m3">
+                <a class="waves-effect btn modal-trigger" href="#info2">Historia logo</a>
+            </div>
+            <div class="col s12 m3 modal-trigger">
+                <a class="waves-effect btn modal-trigger" href="#info3">Comparativa</a>
+            </div>
+
+            <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+
+        </div>
+
+        <!-- <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Modal Header</h4>
+                <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+            </div>
+        </div> -->
+
+        <div id="info1" class="modal">
+            <div class="modal-content">
+                <h5>Ventas de Apple</h5>
+                <img src="images/info1.jpg" alt="" class="responsive-img">
+            </div>
+        </div>
+
+        <div id="info2" class="modal">
+            <div class="modal-content">
+                <h5>Historia del logo</h5>
+                <img src="images/info2.jpg" alt="" class="responsive-img">
+            </div>
+        </div>
+        <div id="info3" class="modal">
+            <div class="modal-content">
+                <h5>Comparativa con otras empresas</h5>
+                <img src="images/info3.jpg" alt="" class="responsive-img">
+            </div>
+        </div>
     </section>
     <footer class="row">
         <div class="col s12 m6">
@@ -58,7 +104,12 @@
     </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
+    <script>
+        $(document).ready(function() {
+            // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+            $('.modal').modal();
+        });
+    </script>
 </body>
 
 </html>
