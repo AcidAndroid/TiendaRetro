@@ -4,6 +4,8 @@ body {
     font-size: x-large; }
   body h3 {
     font-size: medium; }
+  body nav {
+    background-color: yellowgreen; }
 
 header {
   background: url("images/logo.png");
@@ -24,6 +26,13 @@ header {
 .contenido {
   margin-top: 5%;
   margin-bottom: 10%; }
+
+.galeria-productos {
+  margin: 5%; }
+
+.producto {
+  background-size: contain !important;
+  background-repeat: no-repeat; }
 
 footer {
   background-color: tomato; }

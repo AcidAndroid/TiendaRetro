@@ -10,6 +10,9 @@ body {
     h3 {
         font-size: medium;
     }
+    nav {
+        background-color: yellowgreen;
+    }
 }
 
 header {
@@ -34,6 +37,15 @@ header {
 .contenido {
     margin-top: $margen-contenido;
     margin-bottom: 2*$margen-contenido;
+}
+
+.galeria-productos {
+    margin: $margen-contenido;
+}
+
+.producto {
+    background-size: contain !important;
+    background-repeat: no-repeat;
 }
 
 footer {
