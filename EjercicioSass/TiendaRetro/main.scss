@@ -4,6 +4,12 @@ $radio-img-producto:50%;
 $margen-contenido: 5%;
 body {
     margin: $zero;
+    h1 {
+        font-size: x-large;
+    }
+    h3 {
+        font-size: medium;
+    }
 }
 
 header {
@@ -15,6 +21,9 @@ header {
 }
 
 .index-prodcuts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     img {
         height: 133px;
         width: 128px;
@@ -25,4 +34,8 @@ header {
 .contenido {
     margin-top: $margen-contenido;
     margin-bottom: 2*$margen-contenido;
+}
+
+footer {
+    background-color: tomato;
 }

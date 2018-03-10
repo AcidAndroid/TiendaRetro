@@ -1,5 +1,9 @@
 body {
   margin: 0; }
+  body h1 {
+    font-size: x-large; }
+  body h3 {
+    font-size: medium; }
 
 header {
   background: url("images/logo.png");
@@ -8,13 +12,20 @@ header {
   height: 100px;
   width: 100%; }
 
-.index-prodcuts img {
-  height: 133px;
-  width: 128px;
-  border-radius: 50%; }
+.index-prodcuts {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .index-prodcuts img {
+    height: 133px;
+    width: 128px;
+    border-radius: 50%; }
 
 .contenido {
   margin-top: 5%;
   margin-bottom: 10%; }
+
+footer {
+  background-color: tomato; }
 
 /*# sourceMappingURL=main.css.map */

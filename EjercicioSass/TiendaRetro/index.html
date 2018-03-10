@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hola!! Bienvenido a la tienda apple méxico</title>
 
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -16,43 +22,74 @@
 
     </header>
 
-    <section class="contenido">
+    <section class="container contenido">
         <h1>Bienvenidos estas son las fantasticas cosas que tenemos para ofrecer.</h1>
-        <div class="index-prodcuts">
-            <h3>Para ellos</h3>
-            <a href="productos.html"><img src="images/el.jpg" alt="Ellos"></a>
+        <div class="row">
+
+            <div class="col s12 m6 card index-prodcuts">
+
+                <span class="card-title">Para ellos</span>
+
+                <div class="card-content">
+                    <a href="productos.html"><img src="images/el.jpg" alt="Ellos"></a>
+                </div>
+
+            </div>
+            <div class=" col s12 m6  card  index-prodcuts">
+                <span class="card-title">Para ellas</span>
+                <div class="card-content">
+                    <a href="productos.html"><img src="images/ella.png" alt="Ellas"></a>
+                </div>
+
+            </div>
+            <div class="col s12 m6 card index-prodcuts">
+                <span class="card-title">Para los peques</span>
+                <div class="card-content">
+                    <a href="productos.html"><img src="images/peques.jpg" alt="Peques"></a>
+                </div>
+
+            </div>
+
+            <div class="col s12 m6 card index-prodcuts">
+                <span class="card-title">Accesorios</span>
+                <div class="card-content">
+                    <a href="productos.html"><img src="images/accesorios.jpg" alt="Peques"></a>
+                </div>
+
+            </div>
+
+
         </div>
-        <div class="index-prodcuts">
-            <h3>Para ellas</h3>
-            <a href="productos.html"><img src="images/ella.png" alt="Ellas"></a>
-        </div>
-        <div class="index-prodcuts">
-            <h3>Para los peques</h3>
-            <a href="productos.html"><img src="images/peques.jpg" alt="Peques"></a>
-        </div>
-        <div class="index-prodcuts">
-            <h3>Accesorios</h3>
-            <a href="productos.html"><img src="images/accesorios.jpg" alt="Accesorios"></a>
-        </div>
+
+
     </section>
 
-    <footer>
-        <div>
+    <footer class="row">
+        <div class="col s12 m6">
             <p>Eres el visitante No.<img src="" alt="visitante no..."></p>
         </div>
-        <div>
+        <div class="col s12 m6">
             <div>
                 <ul>
-                    <li>Email</li>
-                    <li>Fax</li>
-                    <li>Teléfono</li>
+                    <li><i class="material-icons">contact_mail</i>Email</li>
+                    <li><i class="material-icons">perm_phone_msg</i> Fax</li>
+                    <li><i class="material-icons">phone</i> Teléfono</li>
                 </ul>
             </div>
             <div>
-                <p>Nuestra tienda fisica esta en:</p>
+                <p>Nuestra tienda fisica esta en:
+                    <a href="#">
+                        <img src="images/ubicacion.png" alt="">
+                    </a>
+
+                </p>
             </div>
         </div>
     </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>
 
 </html>
