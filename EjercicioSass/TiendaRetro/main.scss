@@ -1,63 +1,64 @@
-$alto-header:100px;
-$zero:0;
-$radio-img-producto:50%;
-$margen-contenido: 5%;
-$boton-color-apple: orange;
-body {
-    margin: $zero;
-    h1 {
-        font-size: x-large;
-    }
-    h3 {
-        font-size: medium;
-    }
-    nav {
-        background-color: yellowgreen;
-    }
-}
-
-header {
-    background: url("images/logo.png");
-    background-size: auto;
-    background-repeat: no-repeat;
-    height: $alto-header;
-    width: 100%;
-}
-
-.index-prodcuts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    img {
-        height: 133px;
-        width: 128px;
-        border-radius: $radio-img-producto;
-    }
-}
-
-.contenido {
-    margin-top: $margen-contenido;
-    margin-bottom: 2*$margen-contenido;
-    .btn {
-        background-color: $boton-color-apple !important;
-    }
-}
-
-.galeria-productos {
-    margin: $margen-contenido;
-}
-
-.producto {
-    background-size: contain !important;
-    background-repeat: no-repeat;
-}
-
-.info {
-    div {
-        margin: 5px;
-    }
-}
-
-footer {
-    background-color: tomato;
-}
+        $alto-header:100px;
+        $zero:0;
+        $radio-img-producto:50%;
+        $margen-contenido: 5%;
+        $boton-color-apple: orange;
+        body {
+            margin: $zero;
+            h1 {
+                font-size: x-large;
+            }
+            h3 {
+                font-size: medium;
+            }
+            nav {
+                background-color: yellowgreen;
+            }
+        }
+        
+        header {
+            background: url("images/logo.png");
+            background-size: auto;
+            background-repeat: no-repeat;
+            height: $alto-header;
+            width: 100%;
+        }
+        
+        .index-prodcuts {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                height: 133px;
+                width: 128px;
+                border-radius: $radio-img-producto;
+            }
+        }
+        
+        .contenido {
+            margin-top: $margen-contenido;
+            margin-bottom: 2*$margen-contenido;
+            .btn {
+                background-color: $boton-color-apple !important;
+            }
+        }
+        
+        .galeria-productos {
+            margin: $margen-contenido;
+        }
+        
+        .producto {
+            background-size: contain !important;
+            background-repeat: no-repeat;
+        }
+        
+        .info {
+            div {
+                margin: 5px;
+            }
+        }
+        
+        footer {
+            background-color: tomato;
+            font-family: 'Rammetto One', cursive;
+        }
