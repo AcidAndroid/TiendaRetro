@@ -1,0 +1,28 @@
+$alto-header:100px;
+$zero:0;
+$radio-img-producto:50%;
+$margen-contenido: 5%;
+body {
+    margin: $zero;
+}
+
+header {
+    background: url("images/logo.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: $alto-header;
+    width: 100%;
+}
+
+.index-prodcuts {
+    img {
+        height: 133px;
+        width: 128px;
+        border-radius: $radio-img-producto;
+    }
+}
+
+.contenido {
+    margin-top: $margen-contenido;
+    margin-bottom: 2*$margen-contenido;
+}
