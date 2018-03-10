@@ -1,0 +1,39 @@
+$zero: 0;
+$lg :60px;
+body {
+    margin: $zero;
+}
+
+nav {
+    background-color: aqua;
+    height: 100px;
+    a {
+        color: green;
+    }
+}
+
+.box-bands {
+    height: 60vh;
+    background: url("https://img.barks.jp/img/article/1000145528/H/1200.jpg");
+    background-size: cover;
+}
+
+@mixin border($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+.smiths-box {
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: $lg;
+    img {
+        height: 300px;
+        width: 300px;
+        @include border(50%);
+    }
+}

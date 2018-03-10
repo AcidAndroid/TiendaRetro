@@ -1,0 +1,29 @@
+body {
+  margin: 0; }
+
+nav {
+  background-color: aqua;
+  height: 100px; }
+  nav a {
+    color: green; }
+
+.box-bands {
+  height: 60vh;
+  background: url("https://img.barks.jp/img/article/1000145528/H/1200.jpg");
+  background-size: cover; }
+
+.smiths-box {
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px; }
+  .smiths-box img {
+    height: 300px;
+    width: 300px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+
+/*# sourceMappingURL=main.css.map */
